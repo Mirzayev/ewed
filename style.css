@@ -1,0 +1,268 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    background: rgb(46, 44, 44);
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background: linear-gradient(rgb(32, 206, 206), rgb(0, 0, 162));
+    color: white;
+}
+
+.menu-satr {
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    background: linear-gradient(rgb(41, 232, 232), rgb(0, 0, 162));
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    color: rgb(199, 199, 199);
+    transition: .37s;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+}
+
+.header img {
+    display: block;
+    width: 300px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.home-1 {
+    width: 300px;
+    height: 290px;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.home-2 {
+    height: 290px;
+    justify-content: center;
+}
+ */
+
+
+
+
+/* 
+
+
+.parent {
+    margin: 0;
+}
+
+
+.out-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 800px;
+    height: 800px;
+    border: 2px solid green;
+}
+
+.in-box {
+    width: 700px;
+    height: 700px;
+    border: 4px solid yellow;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width:50px;
+    height: 50px;
+    border: 1px solid rgb(33, 33, 37);
+    animation-name: name;
+    animation-duration: 10s;
+
+}
+
+
+@keyframes name {
+    0% {
+        background-color: rgb(0, 255, 38);
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 750px;
+        top: 0;
+    }
+
+    50% {
+        background-color: rgb(230, 102, 22);
+        left: 750px;
+        top: 750px;
+    }
+
+    75% {
+        background-color: rgb(22, 22, 230);
+        left: 0;
+        top: 750px;
+    }
+
+    100% {
+        background-color: rgb(255, 0, 4);
+        left: 0;
+        top: 0;
+    }
+
+}
+ */
+
+/* .homes img{
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+/* } 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111 ;
+}
+
+.home{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+} */
+
+.pagination {
+    display: block;
+
+}
+
+.pagination a {
+    border: 1px solid black;
+    padding: 8px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.text {
+
+    text-shadow: 0px 0px 4px blue,
+        60px 0px 20px yellow,
+        10px 0px 10px rgb(255, 0, 170),
+        -10px -20px 10px red;
+
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: rgba(30, 28, 28, 0.867);
+    width: 400px;
+    height: 400px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: 0 0 20px rgb(183, 168, 168),
+        inset 0 0 10px red
+}
+
+.clock {
+    display: flex;
+    box-shadow: 0 0 20px rgb(183, 168, 168),
+        inset 0 0 20px red,
+        inset 0 0 20px yellow;
+min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(30, 28, 28, 0.867);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    color: white;
+    font-family: mono;
+}
+
+.clock::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.clock span {
+    position: absolute;
+    inset: 20px;
+    color: white;
+    text-align: center;
+    transform: rotate(calc(30deg * var(--i)));
+    margin-top: 30px;
+}
+
+.clock span b {
+    font-size: 18px;
+    opacity: 0.3;
+    transform: rotate(calc(-30deg * var(--i)));
+
+}
+
+.circle_1 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
